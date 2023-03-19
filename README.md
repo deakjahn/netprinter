@@ -53,8 +53,9 @@ on a monochrome printer perfect;
 ## Beta program
 
 If you find problems with your printer and you're willing to experiment a little, please,
-consider joining the beta program. The development version might already offer better support
-or more features for your printer and your feedback will help us make the app even better.
+consider joining the [beta program](https://play.google.com/apps/testing/hu.co.tramontana.netprinter).
+The development version might already offer better support or more features for your printer and your feedback
+will help us make the app even better.
 
 ### Version 1.19
 
@@ -72,4 +73,4 @@ operations were also carefully optimized to avoid any time wasted by unnecessari
 between the various stages of operation.
 
 With a major rewrite, new bugs can creep in. Please, report any problems here so that it can be fixed
-to arrive at an even better, more performant version of the app. Thanks for your help.
+to arrive at an even better, more performant version of the app. Thanks for your help and co-operation.

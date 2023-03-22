@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.19.2]
+
+* Added: PCL3GUI support
+
 ## [1.19.1]
 
 * Fixed: edit screen, fields sometimes cleared

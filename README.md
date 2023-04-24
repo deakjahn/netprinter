@@ -15,7 +15,7 @@ directly:
 - PCLm, PCLmS (Mopria)
 - Airprint/URF (Apple)
 - PostScript
-- PCL 5/5c/6e/XL (Hewlett-Packard)
+- PCL 3GUI/5/5c/6e/XL (Hewlett-Packard)
 - GDI host-based (many)
 
 and it's connected to your local network using any of the usual connections:

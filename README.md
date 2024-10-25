@@ -74,11 +74,3 @@ The app is also capable of the reverse operation: instead of printing to a print
 ## Beta program
 
 If you find problems with your printer and you're willing to experiment a little, please, consider joining the [beta program](https://play.google.com/apps/testing/hu.co.tramontana.netprinter). The development version might already offer better support or more features for your printer and your feedback will help us make the app even better.
-
-### Version 1.19
-
-This version is a major rewrite of the GDI printer support. These are host-based, Windows printers that depend on their full printing knowledge built into the software driving them. The printer has no printer language intelligence of its own and expects the full page to be rendered as a complete bitmap on the host computer. This makes them both cheaper and relatively slow to print to, especially in color.
-
-And precisely this was the reason for the rewrite. Up to 300 dpi, there's no change but above that, the page is now rendered in stripes rather than in full. This reduces the memory requirements dramatically because there's no need to keep the full, high resolution page in memory any more. Also, it made it possible to utilize the multiple processor cores in today's mobile devices, rendering in parallel, resulting in speedups of up to ten times in some cases. The bitmap compression operations were also carefully optimized to avoid any time wasted by unnecessarily copying bitmap data between the various stages of operation.
-
-With a major rewrite, new bugs can creep in. Please, report any problems here so that it can be fixed to arrive at an even better, more performant version of the app. Thanks for your help and co-operation.
